@@ -7,6 +7,6 @@ class Business < ApplicationRecord
     end
 
     def avg_score
-        reveiws.average(:score).round(2).to_f
+        reviews.average(:score).round(2).to_f
     end
 end
